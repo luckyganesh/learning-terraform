@@ -35,7 +35,7 @@ resource "aws_launch_configuration" "sai_launch_configuration" {
 sudo yum -y update
 sudo yum install -y httpd
 sudo service httpd start
-echo "<html><body><h1>Hi Sapana!!!</h1><h1>Hello Akanksha!!!</h1><h2>How are you?</h2></body></html>" > /var/www/html/index.html
+echo "<html><body><h1>Hi this is SAI, how is it going?</h1></body></html>" > /var/www/html/index.html
 EOF
 }
 
